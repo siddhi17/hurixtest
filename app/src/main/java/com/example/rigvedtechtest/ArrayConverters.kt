@@ -4,7 +4,7 @@ import androidx.room.TypeConverter
 
 class ArrayConverters {
     @TypeConverter
-    fun to(array: Array<String>): String {
+    fun to(array: List<String>): String {
         return array.joinToString(" ")
     }
 

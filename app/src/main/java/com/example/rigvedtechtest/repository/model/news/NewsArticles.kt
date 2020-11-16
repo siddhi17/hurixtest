@@ -13,10 +13,10 @@ import com.google.gson.annotations.SerializedName
  * @Entity(tableName = "news_table")
  */
 @Entity(tableName = "news_table")
-@TypeConverters(ArrayConverters::class)
 data class NewsArticles(
         @PrimaryKey var id: String = "",
         @SerializedName("article_type") var title: String? = null,
-        @SerializedName("abstract") var description: String? = null,
+        @TypeConverters(ArrayConverters::class)
+        @SerializedName("abstract") var description: List<String>,
         @SerializedName("publication_date") var publishedAt: String? = null
 )
