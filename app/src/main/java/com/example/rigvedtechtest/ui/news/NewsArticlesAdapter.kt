@@ -49,7 +49,7 @@ class NewsArticlesAdapter(
         fun bind(newsArticle: NewsArticles, listener: (NewsArticles) -> Unit) = with(itemView) {
             tvNewsItemId.text = newsArticle.id
             tvNewsItemArticleType.text = newsArticle.title
-            tvListItemAbstract.text = newsArticle.description.toString()
+       //     tvListItemAbstract.text = newsArticle.description.toString()
             //TODO: need to format date
             tvListItemDateTime.text = newsArticle.publishedAt
 

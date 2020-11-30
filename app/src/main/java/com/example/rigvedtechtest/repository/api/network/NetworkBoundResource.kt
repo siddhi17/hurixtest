@@ -5,11 +5,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 
 /**
- * Created by Waheed on 04,November,2019
- */
-
-
-/**
  * A generic class to send loading event up-stream when fetching data
  * only from network.
  *

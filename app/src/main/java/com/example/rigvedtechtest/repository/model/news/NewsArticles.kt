@@ -17,6 +17,6 @@ data class NewsArticles(
         @PrimaryKey var id: String = "",
         @SerializedName("article_type") var title: String? = null,
         @TypeConverters(ArrayConverters::class)
-        @SerializedName("abstract") var description: List<String>,
+        //    @SerializedName("abstract") var description: List<String>,
         @SerializedName("publication_date") var publishedAt: String? = null
 )

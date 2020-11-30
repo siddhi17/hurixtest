@@ -33,7 +33,7 @@ class NewsArticlesActivity : BaseActivity() {
         news_list.setProgressView(progress_view)
 
         adapter = NewsArticlesAdapter {
-            Toast.makeText(this, it.description.toString(), Toast.LENGTH_SHORT)
+          //  Toast.makeText(this, it.description.toString(), Toast.LENGTH_SHORT)
         }
         news_list.adapter = adapter
         news_list.layoutManager = LinearLayoutManager(this)
