@@ -6,7 +6,7 @@
     tools:context="com.kotlin.mvvm.ui.news.NewsArticlesActivity">
 
 
-    <com.example.rigvedtechtest.CompleteRecyclerView
+    <com.example.HurixTest.CompleteRecyclerView
         android:id="@+id/news_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
